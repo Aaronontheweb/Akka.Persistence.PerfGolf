@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Persistence.MemoryJour
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Persistence.BenchmarkHarness", "src\Akka.Persistence.BenchmarkHarness\Akka.Persistence.BenchmarkHarness.csproj", "{C77F0F4D-9013-4029-B405-0024E2825111}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Persistence.SqliteBenchmark", "src\Akka.Persistence.SqliteBenchmark\Akka.Persistence.SqliteBenchmark.csproj", "{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}"
+EndProject
 Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -41,6 +46,18 @@ Global
 		{C77F0F4D-9013-4029-B405-0024E2825111}.Release|x64.Build.0 = Release|Any CPU
 		{C77F0F4D-9013-4029-B405-0024E2825111}.Release|x86.ActiveCfg = Release|Any CPU
 		{C77F0F4D-9013-4029-B405-0024E2825111}.Release|x86.Build.0 = Release|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Debug|x64.Build.0 = Debug|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Debug|x86.Build.0 = Debug|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Release|x64.ActiveCfg = Release|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Release|x64.Build.0 = Release|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Release|x86.ActiveCfg = Release|Any CPU
+		{C194C6E5-ED3E-46B7-842E-06D7F6CFC20D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
