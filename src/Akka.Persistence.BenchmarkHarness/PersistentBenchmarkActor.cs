@@ -15,7 +15,7 @@ namespace Akka.Persistence.BenchmarkHarness
 
             Recover<int>(i =>
             {
-                _currentCount += i;
+                _currentCount++;
             });
 
             Recover<SnapshotOffer>(o =>
@@ -30,7 +30,7 @@ namespace Akka.Persistence.BenchmarkHarness
             {
                 Persist(e, i =>
                 {
-                    _currentCount += i;
+                    _currentCount++;
                 });
             });
 
